@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FitX Pro | Smart Fitness Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background: #2ecc71;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        .cta-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #c0392b;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #ecf0f1;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 250px;
+        }
+
+        .feature h3 {
+            font-size: 1.8rem;
+        }
+
+        .feature p {
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>FitX Pro</h1>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+                <a href="#buy">Buy Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Track Your Fitness with Ease</h1>
+            <p>The ultimate fitness tracker to help you reach your health goals.</p>
+            <button class="cta-btn" onclick="window.location.href='#buy'">Buy Now</button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>24/7 Heart Rate Monitoring</h3>
+            <p>Stay on top of your health with continuous heart rate tracking.</p>
+        </div>
+        <div class="feature">
+            <h3>Step Counter & Activity Tracking</h3>
+            <p>Track your steps, calories, and active minutes with ease.</p>
+        </div>
+        <div class="feature">
+            <h3>Sleep Monitoring</h3>
+            <p>Monitor your sleep quality and patterns to improve rest.</p>
+        </div>
+    </section>
+
+    <section id="buy" style="text-align: center; padding: 50px 20px; background-color: #3498db; color: white;">
+        <h2>Ready to Transform Your Health?</h2>
+        <p>Get your FitX Pro today and start living a healthier life.</p>
+        <button class="cta-btn" onclick="window.location.href='https://www.example.com'">Buy Now - $199</button>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us: <a href="mailto:support@fitxpro.com">support@fitxpro.com</a></p>
+        <p>
+            <a href="https://twitter.com/FitXPro" target="_blank">Twitter</a> |
+            <a href="https://facebook.com/FitXPro" target="_blank">Facebook</a> |
+            <a href="https://instagram.com/FitXPro" target="_blank">Instagram</a>
+        </p>
+        <p>&copy; 2025 FitX Pro. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
